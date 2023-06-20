@@ -3,5 +3,13 @@ p {
   font-size: 20px;
 }
 .operator_btns {
-  border-style: solid;
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+  
+  color: #220901;
+  background: #ffeb3b;
+  
+  border-width: 10px;
+  border-color: #ababab;
 }
