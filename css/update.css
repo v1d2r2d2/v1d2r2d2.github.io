@@ -2,7 +2,7 @@ p {
   color: red;
   font-size: 20px;
 }
-.operator_btns {
+.button {
     border: 10px ridge #f00;
     background-color: #ff0;
     padding: 0.5rem;
