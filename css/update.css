@@ -3,13 +3,9 @@ p {
   font-size: 20px;
 }
 .operator_btns {
-  width: 60px;
-  height: 60px;
-  padding: 20px;
-  
-  color: #220901;
-  background: #ffeb3b;
-  
-  border-width: 10px;
-  border-color: #ababab;
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
