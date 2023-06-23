@@ -9,14 +9,27 @@ body {
   background: #1b2837;
 }
 p {
+top: -510px;
+position: relative;
+right: -235px;
+height: 15px;
+margin: 20px;
+width: 200px;
 color: #FFEFD5;
-padding: 30;
-min-height: 5vh;
+min-height: 100vh;
+color: #FFEFD5;
+padding: 10;
+min-height: 1px
 }
 h1 {
+position: relative;
+right: -235px;
+height: 15px;
+margin: -60px;
+width: 200px;
 color: #FFEFD5;
-padding: 30;
-min-height: 10vh;
+padding: 90;
+min-height: 100vh;
 }
 div {
  display: flex;
@@ -47,6 +60,16 @@ position: relative;
   top: 40px;
   width:px;
 }
+nav {
+color: #FFEFD5;
+position: relative;
+  margin-bottom: 1px;
+  padding: 1px;
+  left: 240px;
+  top: -540px;
+  width:px;
+}
+
 
 
 
