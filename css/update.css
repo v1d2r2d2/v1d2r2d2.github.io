@@ -5,23 +5,16 @@ body {
   min-height: 30vh;
   background: #1b2837;
 }
+p2 {
+ position: relative;
+ top: -380px;
+ color: #FFEFD5;
+}
 h1 {
 padding: 100px;
 margin: -60px;
 color: #FFEFD5;
 min-height: 100vh;
-}
-p {
-top: -510px;
-position: relative;
-right: -235px;
-height: 15px;
-margin: 20px;
-width: 200px;
-color: #FFEFD5;
-min-height: 100vh;
-padding: 10px;
-min-height: 1px
 }
 div {
  display: flex;
@@ -53,4 +46,5 @@ position: relative;
   left: 240px;
   top: -540px;
 }
+
 
