@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 150vh;
+  min-height: 30vh;
   background: #1b2837;
 }
 p {
