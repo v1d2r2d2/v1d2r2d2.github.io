@@ -13,9 +13,9 @@ p2 {
 }
 h1 {
  padding: 100px;
- margin: -60px;
+ margin: 20px;
  color: #FFEFD5;
- min-height: 100vh;
+ min-height: 90vh;
 }
 div {
  display: flex;
