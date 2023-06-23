@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="utf-8">
-	<title>Калькулятор</title>
-	<link rel="stylesheet" href="css/update.css">
-        <script src="v1d2r2d2.github.io/js/index.js"></script>
+ <meta charset="utf-8">
+ <title>Калькулятор</title>
+ <link rel="stylesheet" href="css/update.css">
+ <script src="v1d2r2d2.github.io/js/index.js"></script>
 </head>
 <body>
-	<header>
-		<h1>Калькулятор</h1>
-		<nav>
-		 <ul>
-		 </ul>
-		</nav>
-	</header>
-	<main>
-		<!-- поле для ввода 1 -->
-		<input id="num1" placeholder="введите сумму..."/>
-                <label>Поле для ввода 1</label>
-		<!-- кнопки действий -->
-		<div id="operator_btns">
-			<button id="plus" onclick="op='+'">+</button>
-			<button id="minus" onclick="op='-'">-</button>
-			<button id="times" onclick="op='*'">x</button>
-			<button id="divide" onclick="op='/'">:</button>
-		</div>
-		<!-- поле для ввода 2 -->
-		<input id="num2" placeholder="введите сумму..."/>
-                <label>Поле для ввода 2</label>
-		<!-- кнопка вычислений -->
-		<button onclick="func()">Получить ответ</button>
-		<!-- ответ -->
-		<p id="result"></p>
-                <p2>Для быстрого использования</p2>
-		<!-- код -->
-		<script>
-		// переменная действия
+ <header>
+  <h1>Калькулятор</h1>
+  <nav>
+   <ul>
+   </ul>
+  </nav>
+ </header>
+<main>
+ <!-- поле для ввода 1 -->
+ <input id="num1" placeholder="введите сумму..."/>
+ <label>Поле для ввода 1</label>
+ <!-- кнопки действий -->
+ <div id="operator_btns">
+  <button id="plus" onclick="op='+'">+</button>
+  <button id="minus" onclick="op='-'">-</button>
+  <button id="times" onclick="op='*'">x</button>
+  <button id="divide" onclick="op='/'">:</button>
+ </div>
+ <!-- поле для ввода 2 -->
+ <input id="num2" placeholder="введите сумму..."/>
+ <label>Поле для ввода 2</label>
+ <!-- кнопка вычислений -->
+ <button onclick="func()">Получить ответ</button>
+ <!-- ответ -->
+ <p id="result"></p>
+ <p2>Для быстрого использования</p2>
+ <!-- код -->
+ <script>
+// переменная действия
 var op;
 // расчет
 function func() {
@@ -93,11 +93,11 @@ function summ() { // Делаем функцию
         summ();
     }
 }
-	      </script>
-      <div class="convert_block_item">
-    <input type="number" id="val" placeholder="введите сумму..."/>
+ </script>
+  <div class="convert_block_item">
+   <input type="number" id="val" placeholder="введите сумму..."/>
     <select id="cur1">
-        <option>USD</option>
+     <option>USD</option>
         <option>EUR</option>
         <option>RUB</option>
     </select>
@@ -110,7 +110,7 @@ function summ() { // Делаем функцию
         <option>RUB</option>
     </select>
 </div>
-		<article> Спасибо что выбрали нас!</article>
-	</main>
+ <article> Спасибо что выбрали нас!</article>
+</main>
 </body>
 </html>
