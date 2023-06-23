@@ -10,18 +10,6 @@ body {
 }
 p {
 color: #FFEFD5;
-h3 { 
-  font-family: Tahoma;
-}
-body { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #1b2837;
-}
-p {
-color: #FFEFD5;
 padding: 30;
 min-height: 5vh;
 }
