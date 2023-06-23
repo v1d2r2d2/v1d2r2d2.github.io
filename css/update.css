@@ -7,7 +7,8 @@ body {
 }
 p2 {
  position: relative;
- top: -385px;
+ left: -230px;
+ top: -300px;
  color: #FFEFD5;
 }
 h1 {
@@ -42,8 +43,7 @@ label {
 nav {
  color: #FFEFD5;
  position: relative;
- padding: 1px;
- left: 240px;
+ left: 24px;
  top: -485px;
 }
 article {
