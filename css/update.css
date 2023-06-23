@@ -18,7 +18,7 @@ width: 200px;
 color: #FFEFD5;
 min-height: 100vh;
 color: #FFEFD5;
-padding: 10;
+padding: 10px;
 min-height: 1px
 }
 h1 {
@@ -28,12 +28,11 @@ height: 15px;
 margin: -60px;
 width: 200px;
 color: #FFEFD5;
-padding: 90;
+padding: 90px;
 min-height: 100vh;
 }
 div {
  display: flex;
- margin: px;
  height: 55px;
  width: 212px;
 }
@@ -48,17 +47,12 @@ input {
   margin-bottom: 40px;
   padding: 20px;
   left: 30px;
-  top: px;
-  width:px;
 }
 label {
 color: #FFEFD5;
 position: relative;
-  margin-bottom: px;
-  padding: px;
   left: -200px;
   top: 40px;
-  width:px;
 }
 nav {
 color: #FFEFD5;
@@ -67,7 +61,6 @@ position: relative;
   padding: 1px;
   left: 240px;
   top: -540px;
-  width:px;
 }
 
 
