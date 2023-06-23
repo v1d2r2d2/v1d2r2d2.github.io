@@ -1,12 +1,15 @@
-h3 { 
-  font-family: Tahoma;
-}
 body { 
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 30vh;
   background: #1b2837;
+}
+h1 {
+padding: 100px;
+margin: -60px;
+color: #FFEFD5;
+min-height: 100vh;
 }
 p {
 top: -510px;
@@ -19,16 +22,6 @@ color: #FFEFD5;
 min-height: 100vh;
 padding: 10px;
 min-height: 1px
-}
-h1 {
-position: relative;
-padding: 90px;
-right: -235px;
-height: 15px;
-margin: -60px;
-width: 200px;
-color: #FFEFD5;
-min-height: 100vh;
 }
 div {
  display: flex;
@@ -60,5 +53,4 @@ position: relative;
   left: 240px;
   top: -540px;
 }
-
 
