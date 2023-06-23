@@ -10,6 +10,41 @@ body {
 }
 p {
 color: #FFEFD5;
+h3 { 
+  font-family: Tahoma;
+}
+body { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1b2837;
+}
+p {
+color: #FFEFD5;
+padding: 30;
+min-height: 5vh;
 }
 h1 {
 color: #FFEFD5;
+padding: 30;
+min-height: 10vh;
+}
+div {
+ align-items: center;
+ display: flex;
+ margin: px 50;
+ background-color: #FFEFD5 ;
+ height: 50px;
+ width: 176px;
+}
+button {
+  padding: 21;
+  left: 30;
+  top: 20;
+}
+input {
+  padding: 18;
+  left: 30;
+  top: 20;
+}
