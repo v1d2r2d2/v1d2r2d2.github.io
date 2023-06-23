@@ -11,10 +11,10 @@ p2 {
  color: #FFEFD5;
 }
 h1 {
-padding: 100px;
-margin: -60px;
-color: #FFEFD5;
-min-height: 100vh;
+ padding: 100px;
+ margin: -60px;
+ color: #FFEFD5;
+ min-height: 100vh;
 }
 div {
  display: flex;
@@ -22,34 +22,33 @@ div {
  width: 212px;
 }
 button {
-position: relative;
-top: -16px;
-height: 57px;
-margin: 1px;
-width: 210px;
+ position: relative;
+ top: -16px;
+ height: 57px;
+ margin: 1px;
+ width: 210px;
 }
 input {
-  margin-bottom: 40px;
-  padding: 20px;
-  left: 30px;
+ margin-bottom: 40px;
+ padding: 20px;
+ left: 30px;
 }
 label {
-color: #FFEFD5;
-position: relative;
-  left: -200px;
-  top: 40px;
+ color: #FFEFD5;
+ position: relative;
+ left: -200px;
+ top: 40px;
 }
 nav {
-color: #FFEFD5;
-position: relative;
-  padding: 1px;
-  left: 240px;
-  top: -485px;
+ color: #FFEFD5;
+ position: relative;
+ padding: 1px;
+ left: 240px;
+ top: -485px;
 }
 article {
-color: #FFEFD5;
-  }
+ color: #FFEFD5;
+}
 p {
  color: #FFEFD5;
 }
- 
