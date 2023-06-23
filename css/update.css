@@ -13,16 +13,3 @@ color: #FFEFD5;
 }
 h1 {
 color: #FFEFD5;
-body { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #1b2837;
-}
-p {
-color: #FFEFD5;
-}
-h1 {
-color: #FFEFD5;
-}
