@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 200vh;
   background: #1b2837;
 }
 p {
@@ -17,18 +17,17 @@ margin: 20px;
 width: 200px;
 color: #FFEFD5;
 min-height: 100vh;
-color: #FFEFD5;
 padding: 10px;
 min-height: 1px
 }
 h1 {
 position: relative;
+padding: 90px;
 right: -235px;
 height: 15px;
 margin: -60px;
 width: 200px;
 color: #FFEFD5;
-padding: 90px;
 min-height: 100vh;
 }
 div {
@@ -38,7 +37,7 @@ div {
 }
 button {
 position: relative;
-top: -15px;
+top: -16px;
 height: 57px;
 margin: 1px;
 width: 210px;
@@ -57,12 +56,9 @@ position: relative;
 nav {
 color: #FFEFD5;
 position: relative;
-  margin-bottom: 1px;
   padding: 1px;
   left: 240px;
   top: -540px;
 }
-
-
 
 
