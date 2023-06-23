@@ -8,7 +8,7 @@ body {
 p2 {
  position: relative;
  left: -230px;
- top: -300px;
+ top: -200px;
  color: #FFEFD5;
 }
 h1 {
@@ -21,6 +21,7 @@ div {
  display: flex;
  height: 55px;
  width: 212px;
+ color: #FFEFD5;
 }
 button {
  position: relative;
@@ -39,12 +40,6 @@ label {
  position: relative;
  left: -200px;
  top: 40px;
-}
-nav {
- color: #FFEFD5;
- position: relative;
- left: 24px;
- top: -485px;
 }
 article {
  color: #FFEFD5;
