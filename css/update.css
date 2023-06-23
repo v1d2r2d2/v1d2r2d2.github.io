@@ -10,29 +10,29 @@ body {
 }
 p {
 color: #FFEFD5;
-padding: 30;
+padding: 30px;
 min-height: 5vh;
 }
 h1 {
 color: #FFEFD5;
-padding: 30;
+padding: 30px;
 min-height: 10vh;
 }
 div {
  align-items: center;
  display: flex;
- margin: px 50;
+ margin: 50px;
  background-color: #FFEFD5 ;
  height: 50px;
  width: 176px;
 }
 button {
-  padding: 21;
-  left: 30;
-  top: 20;
+  padding: 21px;
+  left: 30px;
+  top: 20px;
 }
 input {
-  padding: 18;
-  left: 30;
-  top: 20;
+  padding: 18px;
+  left: 30px;
+  top: 20px;
 }
