@@ -1,49 +1,188 @@
 body { 
+  position: relative;
+  right: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 30vh;
-  background: #1b2837;
+  min-height: 60vh;
+  background-color: #344c6d;
+  padding: 0 20px;
 }
-p2 {
- position: relative;
- left: -230px;
- top: -200px;
- color: #FFEFD5;
+
+/*Стили для надписи калькулятора*/
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  float: right;
+  right: -285px;
+  text-align: center;
+  top: -200px;
+  padding: 40px;
+  padding-right: 44px;
+  margin: 40px;
+  color: #ffffff;
+  background-color: #A18594;
+  border-radius: 15%;
+  width: 185px;
+  height: 50px;
+  position: relative;
 }
-h1 {
-  padding: 10px;
-  margin: 10px;
-  color: #FFEFD5;
-  min-height: 50vh;
+
+/*Стили для надписи конвертера*/
+header h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  float: left;
+  right: -285px;
+  text-align: center;
+  top: -200px;
+  padding: 40px;
+  margin: 40px;
+  color: #ffffff;
+  background-color: #A18594;
+  border-radius: 15%;
+  width: 185px;
+  height: 50px;
+  position: relative;
 }
-div {
- display: flex;
- height: 55px;
- width: 212px;
- color: #FFEFD5;
-}
-button {
- position: relative;
- top: -16px;
- height: 57px;
- margin: 1px;
- width: 210px;
-}
-input {
- margin-bottom: 40px;
- padding: 20px;
- left: 30px;
-}
+
+/*Стили для надписей полей ввода*/
 label {
- color: #FFEFD5;
- position: relative;
- left: -200px;
- top: 40px;
+  color: #ffffff;
+  position: relative;
+  left: -165px;
+  top: 80px;
+  font-weight: bold;
 }
-article {
- color: #FFEFD5;
+
+/*Стили для математических знаков*/
+div {
+  display: flex;
+  height: 70px;
+  width: 212px;
+  color: #ffffff;
 }
+
+/* Стили для кнопок действий */
+#operator_btns button {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 10px 20px;
+  top: 100px;
+  right: 15px;
+  height: 50px;
+  margin: 5px;
+  width: 70px;
+  border-radius: 30%;
+  font-size: 30px;
+  flex: 1;
+}
+
+/* Стили для кнопки вычислений */
+button {
+  position: relative;
+  top: 35px;
+  right: 50px;
+  margin-left: -30px;
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: #A18594;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2%;
+}
+
+/* Стили для ответа */
+#result {
+  position: relative;
+  top: 110px;
+  right: -10px;
+  margin: 0px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*Стили для ответа калькулятора*/
 p {
- color: #FFEFD5;
+  color: #ffffff;
+}
+
+/*Стили для полей ввода числа калькулятора*/
+input#num1,
+input#num2 {
+  position: relative;
+  left: 5px;
+  top: 130px;
+}
+
+/* Стили для текста "введите сумму" */
+input::placeholder {
+  color: black;
+}
+
+/*Стили для цвета полей ввода чисел*/
+input {
+  margin-bottom: 40px;
+  padding: 20px;
+  top: 100px;
+  left: 30px;
+  border-radius: 5%;
+  background-color: #ffffff;
+}
+
+/*Стили для благодарственной надписи*/
+article {
+  position: relative;
+  top: 400px;
+  right: 200px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/* Стили для навигационного меню */
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Стили для полей ввода и меток конвертера*/
+input[type="number"],
+input[type="text"] {
+  position: relative;
+  top: 20px;
+  margin-top: 10px;
+  left: -360px;
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 200px;
+}
+
+/* Стили для блока конвертера */
+.convert_block_item input[type="number"],
+.convert_block_item select {
+  position: relative;
+  top: -145px;
+  right: 350px;
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10%;
+}
+
+/*Стили для ответа конвертера*/
+.convert_result {
+  position: relative;
+  top: -135px;
+  right: 340px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
 }
