@@ -65,15 +65,15 @@ function func() {
 
 // конвертер
  window.onload = function () {
-let c = {'USD':'78', 'EUR':'85.60', 'RUB':'1'}; // Устанавливаем курс валют
-let val = document.getElementById('val'); // Получаем элемент ввода данных
-let currency1 = document.getElementById('cur1'); // Получаем первый селект
-let currency2 = document.getElementById('cur2'); // Получаем второй селект
-let result = document.getElementsByClassName('convert_result')[0]; // Получаем поле куда будем писать результат
+let c = {'USD':'78', 'EUR':'85.60', 'RUB':'1'}; // курс валют
+let val = document.getElementById('val'); // ввод данных
+let currency1 = document.getElementById('cur1'); // 1 селект
+let currency2 = document.getElementById('cur2'); // 2 селект
+let result = document.getElementsByClassName('convert_result')[0]; // поле результатов
 function summ() { // Делаем функцию
  let z = 0;
-  if(currency1.value === currency2.value){ // Если оба значения в селектах равны
-   result.innerText = val.value; // То просто вписываем данные из поля ввода
+  if(currency1.value === currency2.value){ // если равны 
+   result.innerText = val.value; // То вписываем данные
   } else {
   if(currency1.value != 'RUB'){ // Если не равны рублю, то
    z = val.value*c[currency1.value]; // Переводим сумму в рубли
@@ -83,13 +83,13 @@ function summ() { // Делаем функцию
             }
         }
     }
-    val.oninput = function () { // При вводе данных в поле вызываем функцию.
+    val.oninput = function () { // при вводе данных вызывается функция
         summ();
     };
-    currency1.onchange = function () { // При смене первого селекта вызываем функцию.
+    currency1.onchange = function () { // смена 1 селектора выводит функцию
         summ();
     };
-    currency2.onchange = function () { // При смене второго селекта вызываем функцию.
+    currency2.onchange = function () { // смена 2 селектора выводит функцию
         summ(); 
     }
 }
