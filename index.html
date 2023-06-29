@@ -8,8 +8,7 @@
 </head>
 <body>
  <header>
-  <h1>Калькулятор</h1>
-  <h2>Конвертер</h2>
+  <h1 id="h1">Калькурятор</h1>
   <nav>
    <ul>
    </ul>
@@ -30,9 +29,10 @@
  <input id="num2" placeholder="введите число..."/>
  <label>Поле для ввода 2</label>
  <!-- кнопка вычислений -->
- <button onclick="func()">Расчитать</button>
+ <button onclick="func()">Получить ответ</button>
  <!-- ответ -->
  <p id="result"></p>
+ <h1 id="h1_2">Конвертер валют</h1>
  <!-- код -->
  <script>
 // переменная действия
@@ -90,7 +90,7 @@ function summ() { // Делаем функцию
         summ();
     };
     currency2.onchange = function () { // При смене второго селекта вызываем функцию.
-        summ();
+        summ(); 
     }
 }
  </script>
@@ -103,14 +103,22 @@ function summ() { // Делаем функцию
     </select>
 </div>
 <div class="convert_block_item">
-    <div class="convert_result">= 00,000</div>
+    <ul class="convert_result">= 00,000</ul>
     <select id="cur2">
         <option>USD</option>
         <option>EUR</option>
         <option>RUB</option>
     </select>
 </div>
- <article> Спасибо что выбрали нас!</article>
+ <article> Спасибо, что выбрали нас!</article>
 </main>
 </body>
 </html>
+<div>
+
+<img src="https://bumper-stickers.ru/45269-thickbox_default/uzor.jpg" id="a2">
+<img src="https://abrakadabra.fun/uploads/posts/2021-12/1640699211_1-abrakadabra-fun-p-uzori-dlya-oformleniya-knigi-1.png" id="a3">
+<img src="https://www.nicepng.com/png/full/55-559803_white-flower-clipart-flower-tree-transparent-tree-black.png" id="a4">
+<img src="de.ru/uploads/posts/2021-12/1640596710_22-almode-ru-p-ukrasheniya-dlya-vorda-23.png" id="a1">
+</div>
+<link rel="stylesheet" href="css/styles.css">
